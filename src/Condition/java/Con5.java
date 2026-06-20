@@ -29,7 +29,7 @@ if (n%3==0){
 }*/
 
 //. Ek number lo aur check karo ki wo positive, negative ya zero hai.
-   /* public static void main(String[] args) {
+    public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter a number");
         int n = sc.nextInt();
@@ -39,10 +39,10 @@ if (n%3==0){
             System.out.println(n + " is a Negative");
         }
     }
-}*/
+}
 
 //. Teen numbers lo aur sabse bada number print karo.
-public static void main(String[] args) {
+/*public static void main(String[] args) {
     Scanner sc=new Scanner(System.in);
     System.out.println("Enter a Three Number");
     int a;
@@ -62,4 +62,4 @@ public static void main(String[] args) {
 
     }
 
-}
+}*/
