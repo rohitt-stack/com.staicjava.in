@@ -26,11 +26,13 @@ public class Array7 {
 }*/
 
     public static void main(String[] args) {
+        System.out.println("Square Number");
         int arr[] = {2, 4, 6, 8, 10};
 
         for (int i = 0; i < arr.length; i++) {
-            arr[i] = arr[i] * arr[i];
+            int square = arr[i] * arr[i];
+
+            System.out.println(arr[i] + "->" + square);
         }
-        System.out.println("The sum is: " + arr[i]);
     }
 }
